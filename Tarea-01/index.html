@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<title>Calculadora De Divisas</title>
+<link  rel = " stylesheet " href = "style.css" >
+
+<br>
+<body>
+    <div>
+    <form>
+        <img id="imagen1" src="imagenes/dinero.jpg" ><br>
+        <input type="number" id="CantDinero" placeholder="Cantidad de Dinero" required><br><br>
+        <select id="monedaEntrada" placeholder="Elige tu moneda"><br>
+        <option value="eligetumoneda">Elige tu moneda</option>
+        <option value="dolar">DOLAR</option>
+        <option value="pesoMexicano">Peso mexicano</option>
+        <option value="pesoColombiano">Peso colombiano</option>
+        <option value="euro">Euro</option>
+        <option value="libraEsterlina">Libra Esterlina</option>
+        </select>
+        <select id="monedaaConvertir">            
+        <option value="eligetumoneda">Elige tu moneda</option>
+        <option value="dolar">DOLAR</option>
+        <option value="pesoMexicano">Peso mexicano</option>
+        <option value="pesoColombiano">Peso colombiano</option>
+        <option value="euro">Euro</option>
+        <option value="libraEsterlina">Libra Esterlina</option>
+        </select>
+        <button id="boton1" type="button" onclick="convertir();">CONVERTIR</button><br><br>
+       
+         <input id="salida2" type="number" placeholder="su resultado es">
+    
+    
+ </form>
+ </div>
+ <script src="script.js"></script>
+ </body>
+ </html>
